@@ -1,0 +1,87 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0d0d0d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: rgba(30, 30, 30, 0.8);
+    border-bottom: 1px solid #333;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+}
+
+nav .links a {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav .links {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100vw;
+    margin: 25px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdbdbd;
+    font-size: 59px;
+    font-family: sans-serif;
+    margin-bottom: 210px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative; 
+    gap: 30px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 50px;
+    width: 100vw;
+}
+
+.socials a {
+    color: #bdbdbd;
+}
+
+.socials a:hover {
+    color: #551b8c;
+}
